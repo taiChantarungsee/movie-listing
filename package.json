@@ -1,0 +1,28 @@
+{
+  "name": "movie-listing",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-scripts": "1.1.4",
+    "react-intense": "^0.1.2",
+    "autobind-decorator": "^2.1.0",
+    "enzyme": "^3.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "mocha --reporter spec testSetup.js \"components/*.spec.js\"",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "babel-jest": "^22.4.3",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.3.0",
+    "jest": "^22.4.3"
+  }
+}
